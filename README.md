@@ -19,39 +19,43 @@ The Vehicle Rental System is a command-line application designed to manage vehic
 The project is organized into several main directories and subdirectories:
 
 - **/src**: Contains all source code files for the application.
-  - **/miro/task**: Root package for the application.
-    - **Main.java**: Entry point of the application.
-    - **/exceptions**: Custom exception classes for handling specific errors.
-      - *Exception classes such as InvalidActualReturnDateException, InvalidReservationEndDateException, InvalidReservationStartDateException, and SameDateReturnException.*
-    - **/factories**: Factory classes for creating data collectors.
-      - **DataCollectorFactory.java**: Factory to instantiate DataCollector instances based on input.
-    - **/helpers**: Utility classes to assist with calculations and logic.
-      - **/invoice**: Helper class for generating invoices.
-        - **Invoice.java**: Constructs and prints invoices based on rental details.
-      - **/insurance**: Helper class for calculating insurance costs.
-        - **Insurance.java**: Computes daily insurance costs based on vehicle and customer details.
-      - **/rental**: Helper class for calculating rental costs.
-        - **RentalCost.java**: Computes daily rental costs based on vehicle type and rental duration.
-    - **/models**: Contains all data models used in the application.
-      - **/customer**: Classes representing customer details.
-        - **Customer.java**: Stores information about a customer including name, age, and driving experience.
-      - **/rental**: Classes related to rental information.
-        - **RentalInfo.java**: Record for storing reservation and return dates, and rental durations.
-      - **/vehicle**: Classes representing different types of vehicles.
-        - **Vehicle.java**: Base class for all vehicle types.
-        - **/impl**: Implementations of specific vehicle types.
-          - **Car.java**: Represents a car with additional properties like safety rating.
-          - **CargoVan.java**: Represents a cargo van with specific insurance rates based on driver experience.
-          - **Motorcycle.java**: Represents a motorcycle with specific insurance rates based on rider age.
-    - **/utils**: Utility classes and processors used throughout the application.
-      - **/collectors**: Interfaces and implementations for collecting user input.
-        - **DataCollector.java**: Interface for collecting various types of data.
-        - **/impl**: Implementations of data collectors for customers, vehicles, and rental information.
-          - **CustomerDataCollector.java**: Collects customer details like name, age, and driving experience.
-          - **RentalInfoDataCollector.java**: Collects rental details such as reservation dates and actual return date.
-          - **VehicleDataCollector.java**: Collects vehicle details such as type and specifications.
+- **/<project_name>**: Root package for the application (replace `<project_name>` with the actual name of your project).
+  - **Main.java**: Entry point of the application.
+  - **/exceptions**: Custom exception classes for handling specific errors.
+    - Exception classes such as InvalidActualReturnDateException, InvalidReservationEndDateException, InvalidReservationStartDateException, and SameDateReturnException.
+  - **/factories**: Factory classes for creating data collectors.
+    - **DataCollectorFactory.java**: Factory to instantiate DataCollector instances based on input.
+  - **/helpers**: Utility classes to assist with calculations and logic.
+    - **/invoice**: Helper class for generating invoices.
+      - **Invoice.java**: Constructs and prints invoices based on rental details.
+    - **/insurance**: Helper class for calculating insurance costs.
+      - **Insurance.java**: Computes daily insurance costs based on vehicle and customer details.
+    - **/rental**: Helper class for calculating rental costs.
+      - **RentalCost.java**: Computes daily rental costs based on vehicle type and rental duration.
+  - **/models**: Contains all data models used in the application.
+    - **/customer**: Classes representing customer details.
+      - **Customer.java**: Stores information about a customer including name, age, and driving experience.
+    - **/rental**: Classes related to rental information.
+      - **RentalInfo.java**: Record for storing reservation and return dates, and rental durations.
+    - **/vehicle**: Classes representing different types of vehicles.
+      - **Vehicle.java**: Base class for all vehicle types.
+      - **/impl**: Implementations of specific vehicle types.
+        - **Car.java**: Represents a car with additional properties like safety rating.
+        - **CargoVan.java**: Represents a cargo van with specific insurance rates based on driver experience.
+        - **Motorcycle.java**: Represents a motorcycle with specific insurance rates based on rider age.
+  - **/utils**: Utility classes and processors used throughout the application.
+    - **/collectors**: Interfaces and implementations for collecting user input.
+      - **DataCollector.java**: Interface for collecting various types of data.
+      - **/impl**: Implementations of data collectors for customers, vehicles, and rental information.
+        - **CustomerDataCollector.java**: Collects customer details like name, age, and driving experience.
+        - **RentalInfoDataCollector.java**: Collects rental details such as reservation dates and actual return date.
+        - **VehicleDataCollector.java**: Collects vehicle details such as type and specifications.
+      - **DateFormatter.java**: Utility class for date formatting.
+      - **DecimalFormatter.java**: Utility class for formatting decimal numbers.
+    - **/processors**: Utility classes for data processing.
       - **DateProcessor.java**: Utility class for date validation and manipulation.
-
+     
+        
 ## Usage
 
 1. **Setup**: Clone the repository and ensure Java and an IDE are installed.
