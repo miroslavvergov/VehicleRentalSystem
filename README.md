@@ -72,6 +72,4 @@ The project is organized into several main directories and subdirectories:
 
 Contributions are encouraged! Fork the repository, create a branch, make changes, and submit a pull request adhering to coding standards and including relevant tests.
 
-## License
 
-This project is licensed under the name of Miroslav Vergov 
