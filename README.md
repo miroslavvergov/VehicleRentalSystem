@@ -60,17 +60,6 @@ The project is organized into several main directories and subdirectories:
 
 3. **Input**: Enter customer details, select a vehicle type, and input rental dates. The system validates inputs and guides through any errors.
 
-4. **Output**: Upon correct input, the system generates
-
-
-## Usage
-
-1. **Setup**: Clone the repository and ensure Java and an IDE are installed.
-
-2. **Run**: Open the project in your IDE and execute `Main.java`. Follow console prompts to interact with the application.
-
-3. **Input**: Enter customer details, select a vehicle type, and input rental dates. The system validates inputs and guides through any errors.
-
 4. **Output**: Upon correct input, the system generates a detailed invoice showing rental costs, insurance fees, discounts, and total expenses.
 
 ## Dependencies
