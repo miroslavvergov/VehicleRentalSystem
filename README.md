@@ -12,7 +12,6 @@ The Vehicle Rental System is a command-line application designed to manage vehic
 - **Invoice Generation**: Computes rental and insurance costs, applies early return discounts, and produces detailed invoices.
 - **Command-Line Interface (CLI)**: Provides an intuitive text-based interface for user interaction.
 
-# Vehicle Rental System
 
 ## Project Structure
 
