@@ -19,7 +19,6 @@ The Vehicle Rental System is a command-line application designed to manage vehic
 The project is organized into several main directories and subdirectories:
 
 - **/src**: Contains all source code files for the application.
-- **/<project_name>**: Root package for the application (replace `<project_name>` with the actual name of your project).
   - **Main.java**: Entry point of the application.
   - **/exceptions**: Custom exception classes for handling specific errors.
     - Exception classes such as InvalidActualReturnDateException, InvalidReservationEndDateException, InvalidReservationStartDateException, and SameDateReturnException.
