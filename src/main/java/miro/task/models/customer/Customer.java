@@ -1,4 +1,4 @@
-package miro.task.model.customer;
+package miro.task.models.customer;
 
 import lombok.Getter;
 

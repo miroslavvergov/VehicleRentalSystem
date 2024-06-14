@@ -1,7 +1,6 @@
-package miro.task.model.vehicle;
+package miro.task.models.vehicle;
 
 import lombok.Getter;
-import lombok.Setter;
 
 /**
  * Abstract class representing a generic vehicle in the rental system.

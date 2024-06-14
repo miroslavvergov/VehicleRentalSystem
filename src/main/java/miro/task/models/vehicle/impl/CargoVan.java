@@ -1,6 +1,6 @@
-package miro.task.model.vehicle.impl;
+package miro.task.models.vehicle.impl;
 
-import miro.task.model.vehicle.Vehicle;
+import miro.task.models.vehicle.Vehicle;
 
 /**
  * Represents a cargo van available for rental.
